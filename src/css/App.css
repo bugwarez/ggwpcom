@@ -1,14 +1,16 @@
-*,body
-{
+*, body {
     margin: 0;
     padding: 0;
 }
+
+/*Navbar Stylings*/
 ul {
+    font-size: 1em;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #0d6efd;
 }
 
 li {
@@ -24,9 +26,32 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: #111;
+    background-color: white;
+    color: #0d6efd;
 }
 
 .active {
     background-color: #04AA6D;
+}
+
+/*Image Styles*/
+.summoner_server_select {
+    width: 7vw !important;
+}
+
+
+
+.img_sm {
+    padding: 2px;
+    margin: 0;
+    width: 3vw;
+    height: auto;
+}
+
+.searchUser {
+    display: block;
+    margin: 0 auto;
+    margin-top: 15%;
+    width: 30%;
+    font-size: 1.5em;
 }
